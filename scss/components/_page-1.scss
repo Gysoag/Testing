@@ -1,0 +1,145 @@
+@import '../config/variables';
+
+/* ||@ TEST / Page-1 ———————————————————————————————————————————————————————————————————————————————————————————— */
+/* || Allgemeiner Style ————————————————————————————————————————————————————————————————————————————————————————— */
+#page-1 {
+   
+    /* || Accordion ————————————————————————————————————————————————————————————————————————————————————————— */
+    .accordion-list {
+    overflow: hidden;
+    padding: 0;
+
+    li {
+        border-bottom: solid 1px $Border-gray;
+    }
+
+    }
+
+    .accordion_btn {
+    background: $Main-white;
+    border: none;
+    cursor: pointer;
+    display: block;
+    outline: none;
+    padding: 1.5rem 0 1.5rem 0;
+    position: relative;
+    text-align: left;
+    width: 100%;
+    font-size: 1.8rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Open Sans";
+
+    &::before {
+
+    }
+
+    &::after {
+        content: '';
+        margin-right: 1rem;
+        top: calc(50% - 1rem);
+        width: 2rem;
+        height: 2rem;
+        display: block;
+        background-image: url(../kundenupload/content-management/img/arrow.svg);
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        -webkit-transition: all .2s ease-in-out;
+        -o-transition: all .2s ease-in-out;
+        transition: all .2s ease-in-out;
+    }
+
+    }
+
+    .accordion_btn.active::after {
+    transform: rotate(180deg);
+    transition: all .3s;
+    }
+
+    .accordion_btn.active h2, .accordion_btn:focus h2 {
+    position: relative;
+    }
+
+    .accordion_panel {
+    background: $Main-white;
+    padding-bottom: 1.5rem;
+    display: none;
+    overflow: hidden;
+    }
+
+    /* || Bild + Text ————————————————————————————————————————————————————————————————————————————————————————— */
+    .img-pl-10 {
+        padding-left: 5rem;
+    }
+
+    /* || Grid-Liste —————————————————————————————————————————————————————————————————————————————————————————— */
+    .grid-list {
+        display: grid;
+        row-gap: 1rem;
+        margin-bottom: 2.5rem;
+
+        .grid-list-description {
+            display: inline-flex;
+            column-gap: .5rem;
+            //font-size: var(--small-font-size);
+        }
+
+        .grid-list-icon {
+            background-image: url("./../kundenupload/content-management/img/icon/op-icon-check.svg");
+            background-repeat: no-repeat;
+            padding: 1.5rem;
+            margin-right: 1.5rem;
+        }
+
+        .ri-checkbox-fill {
+
+        }
+    }
+
+
+    /* || Sonderfälle ————————————————————————————————————————————————————————————————————————————————————————— */
+    .special-cases {
+        background-color: $Very-light-gray;
+        padding: 3rem 2rem 2rem;
+        border-radius: 1rem;
+
+        .special-cases-container {
+            gap: 2rem;
+            padding-top: 1rem;
+        }
+
+        .special-cases-card {
+            background-color: $Main-white;
+            padding: 6rem 3rem 6rem 3rem;
+            margin: 3rem 0 3rem 0;
+            border-radius: 1rem;
+
+            &:hover .special-cases-card-number {
+                transform: translateY(-1rem);
+            }
+
+            .special-cases-card-number {
+                display: inline-block;
+                background-color: $Main-green;
+                color: #FFF;
+                padding: .75rem 1.5rem;
+                border-radius: .25rem;
+                font-size: 2.4rem;
+                line-height: 2.4rem * 1.5;
+                margin-bottom: 1.5rem;
+                transition: .3s;
+            }
+
+            .special-cases-card-title {
+
+            }
+
+            .special-cases-card-description {
+
+            }
+    
+        }
+    }
+}

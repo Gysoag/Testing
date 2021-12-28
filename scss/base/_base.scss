@@ -1,0 +1,32 @@
+@import '../config/variables';
+
+/* ||@ BASE */
+/* || REUSABLE CSS CLASSES ————————————————————————————————————————————————————————————————————————————————————————— */
+#page-home, #page-1 {
+
+   .grid {
+      display: grid;
+   }
+
+   .section-text-center {
+      text-align: center;
+   }
+
+   b {
+      font-size: larger;
+      font-weight: bolder;
+  }
+
+  .hr-light {
+      width: 33%;
+      border: 1px solid $Very-light-gray
+   }
+
+   .card-content {
+      background: $Main-white;
+      border-radius: 3px;
+      padding: 6rem 3rem 6rem 3rem;
+      //box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+   }
+
+}

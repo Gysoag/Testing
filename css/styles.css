@@ -1,0 +1,860 @@
+@charset "UTF-8";
+/*  
+** Style SCSS
+** Author: Jeffrey Widmer
+** Company: GYSO AG
+** Date: 28.12.2021
+** ||@  = Überschriften
+** ||   = Erklärung
+*/
+/* ||@ FONTS */
+/* ||@ COLOR */
+/* || Globale Farben definieren */
+/* ||@ TYPOGRAPHY ——————————————————————————————————————————————————————————————————————————————————————————————— */
+/* || Globable Schriftstyle definieren —————————————————————————————————————————————————————————————————————————— */
+#page-home, #page-1 {
+  /*
+    h3 {
+        font-size: 2.0rem;
+        font-weight: 600;
+        line-height: 2.0rem * 1.5;
+        color: $Main-black;
+    }
+*/
+  /*
+    h5 {
+        font-size: 1.6rem;
+        font-weight: 600;
+        line-height: 1.6rem * 1.5;
+        color: $Main-black;
+    }
+*/
+  /*
+    a {
+        font-size: 1.6rem;
+        font-weight: 600;
+        line-height: 1.6rem * 1.5;
+        color: $Main-green;
+    }
+*/
+}
+
+#page-home h1, #page-1 h1 {
+  font-size: 3.2rem;
+  font-weight: 600;
+  line-height: 4.8rem;
+  margin-bottom: 0.5rem;
+  color: #1D1D1D;
+}
+
+#page-home h2, #page-1 h2 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 3.6rem;
+  color: #1D1D1D;
+}
+
+#page-home h4, #page-1 h4 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 2.7rem;
+  color: #1D1D1D;
+}
+
+#page-home h6, #page-1 h6 {
+  font-size: 2.0rem;
+  font-weight: 300;
+  line-height: 3rem;
+  margin-bottom: 1.5rem;
+  color: #1D1D1D;
+}
+
+#page-home li, #page-1 li {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2.4rem;
+  color: #1D1D1D;
+}
+
+#page-home p, #page-1 p {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2.4rem;
+  color: #1D1D1D;
+}
+
+@media only screen and (max-width: 767.98px) {
+  #page-home h1, #page-1 h1 {
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 3.6rem;
+    margin-bottom: 0.5rem;
+    color: #1D1D1D;
+  }
+  #page-home h2, #page-1 h2 {
+    font-size: 2.0rem;
+    font-weight: 600;
+    line-height: 3rem;
+    color: #1D1D1D;
+  }
+  #page-home h6, #page-1 h6 {
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 2.7rem;
+    margin-bottom: 1.5rem;
+    color: #1D1D1D;
+  }
+}
+
+/* ||@ SPACING —————————————————————————————————————————————————————————————————————————————————————————————————— */
+/* || Globable Abstände definieren —————————————————————————————————————————————————————————————————————————————— */
+#page-home, #page-1 {
+  /* || padding-top */
+  /* || padding-bottom */
+  /* || margin-top */
+  /* || margin-bottom */
+}
+
+#page-home .pt-5, #page-1 .pt-5 {
+  padding-top: 0.5rem;
+}
+
+#page-home .pt-10, #page-1 .pt-10 {
+  padding-top: 1rem;
+}
+
+#page-home .pt-15, #page-1 .pt-15 {
+  padding-top: 1.5rem;
+}
+
+#page-home .pt-30, #page-1 .pt-30 {
+  padding-top: 3rem;
+}
+
+#page-home .pt-50, #page-1 .pt-50 {
+  padding-top: 5rem;
+}
+
+#page-home .pt-100, #page-1 .pt-100 {
+  padding-top: 10rem;
+}
+
+#page-home .pb-5, #page-1 .pb-5 {
+  padding-bottom: 0.5rem;
+}
+
+#page-home .pb-10, #page-1 .pb-10 {
+  padding-bottom: 1rem;
+}
+
+#page-home .pb-15, #page-1 .pb-15 {
+  padding-bottom: 1.5rem;
+}
+
+#page-home .pb-30, #page-1 .pb-30 {
+  padding-bottom: 3rem;
+}
+
+#page-home .pb-50, #page-1 .pb-50 {
+  padding-bottom: 5rem;
+}
+
+#page-home .pb-100, #page-1 .pb-100 {
+  padding-bottom: 10rem;
+}
+
+#page-home .mt-5, #page-1 .mt-5 {
+  margin-top: 0.5rem;
+}
+
+#page-home .mt-10, #page-1 .mt-10 {
+  margin-top: 1rem;
+}
+
+#page-home .mt-15, #page-1 .mt-15 {
+  margin-top: 1.5rem;
+}
+
+#page-home .mt-30, #page-1 .mt-30 {
+  margin-top: 3rem;
+}
+
+#page-home .mt-50, #page-1 .mt-50 {
+  margin-top: 5rem;
+}
+
+#page-home .mt-100, #page-1 .mt-100 {
+  margin-top: 10rem;
+}
+
+#page-home .mb-5, #page-1 .mb-5 {
+  margin-bottom: 0.5rem;
+}
+
+#page-home .mb-10, #page-1 .mb-10 {
+  margin-bottom: 1rem;
+}
+
+#page-home .mb-15, #page-1 .mb-15 {
+  margin-bottom: 1.5rem;
+}
+
+#page-home .mb-30, #page-1 .mb-30 {
+  margin-bottom: 3rem;
+}
+
+#page-home .mb-50, #page-1 .mb-50 {
+  margin-bottom: 5rem;
+}
+
+#page-home .mb-100, #page-1 .mb-100 {
+  margin-bottom: 10rem;
+}
+
+/* ||@ BASE */
+/* || REUSABLE CSS CLASSES ————————————————————————————————————————————————————————————————————————————————————————— */
+#page-home .grid, #page-1 .grid {
+  display: -ms-grid;
+  display: grid;
+}
+
+#page-home .section-text-center, #page-1 .section-text-center {
+  text-align: center;
+}
+
+#page-home b, #page-1 b {
+  font-size: larger;
+  font-weight: bolder;
+}
+
+#page-home .hr-light, #page-1 .hr-light {
+  width: 33%;
+  border: 1px solid #F8F8F8;
+}
+
+#page-home .card-content, #page-1 .card-content {
+  background: #FFFFFF;
+  border-radius: 3px;
+  padding: 6rem 3rem 6rem 3rem;
+}
+
+/* ||@ FONTS */
+/* ||@ COLOR */
+/* || Globale Farben definieren */
+/* ||@ TYPOGRAPHY ——————————————————————————————————————————————————————————————————————————————————————————————— */
+/* || Globable Schriftstyle definieren —————————————————————————————————————————————————————————————————————————— */
+#page-home, #page-1 {
+  /*
+    h3 {
+        font-size: 2.0rem;
+        font-weight: 600;
+        line-height: 2.0rem * 1.5;
+        color: $Main-black;
+    }
+*/
+  /*
+    h5 {
+        font-size: 1.6rem;
+        font-weight: 600;
+        line-height: 1.6rem * 1.5;
+        color: $Main-black;
+    }
+*/
+  /*
+    a {
+        font-size: 1.6rem;
+        font-weight: 600;
+        line-height: 1.6rem * 1.5;
+        color: $Main-green;
+    }
+*/
+}
+
+#page-home h1, #page-1 h1 {
+  font-size: 3.2rem;
+  font-weight: 600;
+  line-height: 4.8rem;
+  margin-bottom: 0.5rem;
+  color: #1D1D1D;
+}
+
+#page-home h2, #page-1 h2 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 3.6rem;
+  color: #1D1D1D;
+}
+
+#page-home h4, #page-1 h4 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 2.7rem;
+  color: #1D1D1D;
+}
+
+#page-home h6, #page-1 h6 {
+  font-size: 2.0rem;
+  font-weight: 300;
+  line-height: 3rem;
+  margin-bottom: 1.5rem;
+  color: #1D1D1D;
+}
+
+#page-home li, #page-1 li {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2.4rem;
+  color: #1D1D1D;
+}
+
+#page-home p, #page-1 p {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2.4rem;
+  color: #1D1D1D;
+}
+
+@media only screen and (max-width: 767.98px) {
+  #page-home h1, #page-1 h1 {
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 3.6rem;
+    margin-bottom: 0.5rem;
+    color: #1D1D1D;
+  }
+  #page-home h2, #page-1 h2 {
+    font-size: 2.0rem;
+    font-weight: 600;
+    line-height: 3rem;
+    color: #1D1D1D;
+  }
+  #page-home h6, #page-1 h6 {
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 2.7rem;
+    margin-bottom: 1.5rem;
+    color: #1D1D1D;
+  }
+}
+
+/* ||@ SPACING —————————————————————————————————————————————————————————————————————————————————————————————————— */
+/* || Globable Abstände definieren —————————————————————————————————————————————————————————————————————————————— */
+#page-home, #page-1 {
+  /* || padding-top */
+  /* || padding-bottom */
+  /* || margin-top */
+  /* || margin-bottom */
+}
+
+#page-home .pt-5, #page-1 .pt-5 {
+  padding-top: 0.5rem;
+}
+
+#page-home .pt-10, #page-1 .pt-10 {
+  padding-top: 1rem;
+}
+
+#page-home .pt-15, #page-1 .pt-15 {
+  padding-top: 1.5rem;
+}
+
+#page-home .pt-30, #page-1 .pt-30 {
+  padding-top: 3rem;
+}
+
+#page-home .pt-50, #page-1 .pt-50 {
+  padding-top: 5rem;
+}
+
+#page-home .pt-100, #page-1 .pt-100 {
+  padding-top: 10rem;
+}
+
+#page-home .pb-5, #page-1 .pb-5 {
+  padding-bottom: 0.5rem;
+}
+
+#page-home .pb-10, #page-1 .pb-10 {
+  padding-bottom: 1rem;
+}
+
+#page-home .pb-15, #page-1 .pb-15 {
+  padding-bottom: 1.5rem;
+}
+
+#page-home .pb-30, #page-1 .pb-30 {
+  padding-bottom: 3rem;
+}
+
+#page-home .pb-50, #page-1 .pb-50 {
+  padding-bottom: 5rem;
+}
+
+#page-home .pb-100, #page-1 .pb-100 {
+  padding-bottom: 10rem;
+}
+
+#page-home .mt-5, #page-1 .mt-5 {
+  margin-top: 0.5rem;
+}
+
+#page-home .mt-10, #page-1 .mt-10 {
+  margin-top: 1rem;
+}
+
+#page-home .mt-15, #page-1 .mt-15 {
+  margin-top: 1.5rem;
+}
+
+#page-home .mt-30, #page-1 .mt-30 {
+  margin-top: 3rem;
+}
+
+#page-home .mt-50, #page-1 .mt-50 {
+  margin-top: 5rem;
+}
+
+#page-home .mt-100, #page-1 .mt-100 {
+  margin-top: 10rem;
+}
+
+#page-home .mb-5, #page-1 .mb-5 {
+  margin-bottom: 0.5rem;
+}
+
+#page-home .mb-10, #page-1 .mb-10 {
+  margin-bottom: 1rem;
+}
+
+#page-home .mb-15, #page-1 .mb-15 {
+  margin-bottom: 1.5rem;
+}
+
+#page-home .mb-30, #page-1 .mb-30 {
+  margin-bottom: 3rem;
+}
+
+#page-home .mb-50, #page-1 .mb-50 {
+  margin-bottom: 5rem;
+}
+
+#page-home .mb-100, #page-1 .mb-100 {
+  margin-bottom: 10rem;
+}
+
+/* ||@ COMPONENTS ——————————————————————————————————————————————————————————————————————————————————————————————— */
+/* || Gloable Komponenten definieren ———————————————————————————————————————————————————————————————————————————— */
+#page-home, #page-1 {
+  /* || Container With Left full —————————————————————————————————————————————————————————————————————————————— */
+  /* ||@ Accordion ———————————————————————————————————————————————————————————————————————————————————————————— */
+}
+
+#page-home .container-width-100-l, #page-1 .container-width-100-l {
+  width: 100%;
+  height: auto;
+  background-color: #F8F8F8;
+  position: relative;
+}
+
+#page-home .container-width-100-l::before, #page-1 .container-width-100-l::before {
+  content: "";
+  background-color: inherit;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 100%;
+  width: 99999px;
+}
+
+/* ||@ BREAKPOINTS ——————————————————————————————————————————————————————————————————————————————————————————————— */
+#page-home, #page-1 {
+  /* For small devices */
+  /* For medium devices */
+  /* For large devices */
+}
+
+@media screen and (max-width: 320px) {
+  #page-home .special-cases .special-cases-card, #page-1 .special-cases .special-cases-card {
+    padding: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  #page-home .special-cases .special-cases-container, #page-1 .special-cases .special-cases-container {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #page-home .special-cases .special-cases-container, #page-1 .special-cases .special-cases-container {
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* ||@ STARTSEITE / Page-home ——————————————————————————————————————————————————————————————————————————————————— */
+/* || Allgemeiner Style ————————————————————————————————————————————————————————————————————————————————————————— */
+#page-home .tours .image-gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#page-home .tours .image-gallery img {
+  max-width: 300px;
+  margin: 10px;
+}
+
+#page-home .test-1 .test-content {
+  background: #FFFFFF;
+  border-radius: 3px;
+  padding: 13vmin 5vmin 20vmin 10vmin;
+  -webkit-box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+}
+
+/* ||@ FONTS */
+/* ||@ COLOR */
+/* || Globale Farben definieren */
+/* ||@ TYPOGRAPHY ——————————————————————————————————————————————————————————————————————————————————————————————— */
+/* || Globable Schriftstyle definieren —————————————————————————————————————————————————————————————————————————— */
+#page-home, #page-1 {
+  /*
+    h3 {
+        font-size: 2.0rem;
+        font-weight: 600;
+        line-height: 2.0rem * 1.5;
+        color: $Main-black;
+    }
+*/
+  /*
+    h5 {
+        font-size: 1.6rem;
+        font-weight: 600;
+        line-height: 1.6rem * 1.5;
+        color: $Main-black;
+    }
+*/
+  /*
+    a {
+        font-size: 1.6rem;
+        font-weight: 600;
+        line-height: 1.6rem * 1.5;
+        color: $Main-green;
+    }
+*/
+}
+
+#page-home h1, #page-1 h1 {
+  font-size: 3.2rem;
+  font-weight: 600;
+  line-height: 4.8rem;
+  margin-bottom: 0.5rem;
+  color: #1D1D1D;
+}
+
+#page-home h2, #page-1 h2 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 3.6rem;
+  color: #1D1D1D;
+}
+
+#page-home h4, #page-1 h4 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 2.7rem;
+  color: #1D1D1D;
+}
+
+#page-home h6, #page-1 h6 {
+  font-size: 2.0rem;
+  font-weight: 300;
+  line-height: 3rem;
+  margin-bottom: 1.5rem;
+  color: #1D1D1D;
+}
+
+#page-home li, #page-1 li {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2.4rem;
+  color: #1D1D1D;
+}
+
+#page-home p, #page-1 p {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2.4rem;
+  color: #1D1D1D;
+}
+
+@media only screen and (max-width: 767.98px) {
+  #page-home h1, #page-1 h1 {
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 3.6rem;
+    margin-bottom: 0.5rem;
+    color: #1D1D1D;
+  }
+  #page-home h2, #page-1 h2 {
+    font-size: 2.0rem;
+    font-weight: 600;
+    line-height: 3rem;
+    color: #1D1D1D;
+  }
+  #page-home h6, #page-1 h6 {
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 2.7rem;
+    margin-bottom: 1.5rem;
+    color: #1D1D1D;
+  }
+}
+
+/* ||@ SPACING —————————————————————————————————————————————————————————————————————————————————————————————————— */
+/* || Globable Abstände definieren —————————————————————————————————————————————————————————————————————————————— */
+#page-home, #page-1 {
+  /* || padding-top */
+  /* || padding-bottom */
+  /* || margin-top */
+  /* || margin-bottom */
+}
+
+#page-home .pt-5, #page-1 .pt-5 {
+  padding-top: 0.5rem;
+}
+
+#page-home .pt-10, #page-1 .pt-10 {
+  padding-top: 1rem;
+}
+
+#page-home .pt-15, #page-1 .pt-15 {
+  padding-top: 1.5rem;
+}
+
+#page-home .pt-30, #page-1 .pt-30 {
+  padding-top: 3rem;
+}
+
+#page-home .pt-50, #page-1 .pt-50 {
+  padding-top: 5rem;
+}
+
+#page-home .pt-100, #page-1 .pt-100 {
+  padding-top: 10rem;
+}
+
+#page-home .pb-5, #page-1 .pb-5 {
+  padding-bottom: 0.5rem;
+}
+
+#page-home .pb-10, #page-1 .pb-10 {
+  padding-bottom: 1rem;
+}
+
+#page-home .pb-15, #page-1 .pb-15 {
+  padding-bottom: 1.5rem;
+}
+
+#page-home .pb-30, #page-1 .pb-30 {
+  padding-bottom: 3rem;
+}
+
+#page-home .pb-50, #page-1 .pb-50 {
+  padding-bottom: 5rem;
+}
+
+#page-home .pb-100, #page-1 .pb-100 {
+  padding-bottom: 10rem;
+}
+
+#page-home .mt-5, #page-1 .mt-5 {
+  margin-top: 0.5rem;
+}
+
+#page-home .mt-10, #page-1 .mt-10 {
+  margin-top: 1rem;
+}
+
+#page-home .mt-15, #page-1 .mt-15 {
+  margin-top: 1.5rem;
+}
+
+#page-home .mt-30, #page-1 .mt-30 {
+  margin-top: 3rem;
+}
+
+#page-home .mt-50, #page-1 .mt-50 {
+  margin-top: 5rem;
+}
+
+#page-home .mt-100, #page-1 .mt-100 {
+  margin-top: 10rem;
+}
+
+#page-home .mb-5, #page-1 .mb-5 {
+  margin-bottom: 0.5rem;
+}
+
+#page-home .mb-10, #page-1 .mb-10 {
+  margin-bottom: 1rem;
+}
+
+#page-home .mb-15, #page-1 .mb-15 {
+  margin-bottom: 1.5rem;
+}
+
+#page-home .mb-30, #page-1 .mb-30 {
+  margin-bottom: 3rem;
+}
+
+#page-home .mb-50, #page-1 .mb-50 {
+  margin-bottom: 5rem;
+}
+
+#page-home .mb-100, #page-1 .mb-100 {
+  margin-bottom: 10rem;
+}
+
+/* ||@ TEST / Page-1 ———————————————————————————————————————————————————————————————————————————————————————————— */
+/* || Allgemeiner Style ————————————————————————————————————————————————————————————————————————————————————————— */
+#page-1 {
+  /* || Accordion ————————————————————————————————————————————————————————————————————————————————————————— */
+  /* || Bild + Text ————————————————————————————————————————————————————————————————————————————————————————— */
+  /* || Grid-Liste —————————————————————————————————————————————————————————————————————————————————————————— */
+  /* || Sonderfälle ————————————————————————————————————————————————————————————————————————————————————————— */
+}
+
+#page-1 .accordion-list {
+  overflow: hidden;
+  padding: 0;
+}
+
+#page-1 .accordion-list li {
+  border-bottom: solid 1px #E5E5E5;
+}
+
+#page-1 .accordion_btn {
+  background: #FFFFFF;
+  border: none;
+  cursor: pointer;
+  display: block;
+  outline: none;
+  padding: 1.5rem 0 1.5rem 0;
+  position: relative;
+  text-align: left;
+  width: 100%;
+  font-size: 1.8rem;
+  font-weight: 600;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: "Open Sans";
+}
+
+#page-1 .accordion_btn::after {
+  content: '';
+  margin-right: 1rem;
+  top: calc(50% - 1rem);
+  width: 2rem;
+  height: 2rem;
+  display: block;
+  background-image: url(../kundenupload/content-management/img/arrow.svg);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+#page-1 .accordion_btn.active::after {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+#page-1 .accordion_btn.active h2, #page-1 .accordion_btn:focus h2 {
+  position: relative;
+}
+
+#page-1 .accordion_panel {
+  background: #FFFFFF;
+  padding-bottom: 1.5rem;
+  display: none;
+  overflow: hidden;
+}
+
+#page-1 .img-pl-10 {
+  padding-left: 5rem;
+}
+
+#page-1 .grid-list {
+  display: -ms-grid;
+  display: grid;
+  row-gap: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+#page-1 .grid-list .grid-list-description {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-column-gap: .5rem;
+          column-gap: .5rem;
+}
+
+#page-1 .grid-list .grid-list-icon {
+  background-image: url("./../kundenupload/content-management/img/icon/op-icon-check.svg");
+  background-repeat: no-repeat;
+  padding: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+#page-1 .special-cases {
+  background-color: #F8F8F8;
+  padding: 3rem 2rem 2rem;
+  border-radius: 1rem;
+}
+
+#page-1 .special-cases .special-cases-container {
+  gap: 2rem;
+  padding-top: 1rem;
+}
+
+#page-1 .special-cases .special-cases-card {
+  background-color: #FFFFFF;
+  padding: 6rem 3rem 6rem 3rem;
+  margin: 3rem 0 3rem 0;
+  border-radius: 1rem;
+}
+
+#page-1 .special-cases .special-cases-card:hover .special-cases-card-number {
+  -webkit-transform: translateY(-1rem);
+          transform: translateY(-1rem);
+}
+
+#page-1 .special-cases .special-cases-card .special-cases-card-number {
+  display: inline-block;
+  background-color: #009775;
+  color: #FFF;
+  padding: .75rem 1.5rem;
+  border-radius: .25rem;
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+  margin-bottom: 1.5rem;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+/*# sourceMappingURL=styles.css.map */

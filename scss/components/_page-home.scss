@@ -1,0 +1,28 @@
+/* ||@ STARTSEITE / Page-home ——————————————————————————————————————————————————————————————————————————————————— */
+/* || Allgemeiner Style ————————————————————————————————————————————————————————————————————————————————————————— */
+#page-home {
+
+    .tours {
+        .image-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            align-items: center;
+
+            img {
+                max-width: 300px;
+                margin: 10px;
+            }
+        }
+    }
+
+    .test-1 {
+
+        .test-content {
+            background: $Main-white;
+            border-radius: 3px;
+            padding: 13vmin 5vmin 20vmin 10vmin;
+            box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+        }
+    }
+}
