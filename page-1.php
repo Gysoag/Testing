@@ -65,8 +65,7 @@
             <h1>Mit dem GYSO-Tour Lieferservice geniessen Sie folgende Vorteile</h1>
             <h6 class="mt-5">Lorem ipsum dolor sit amet, consetetur sadipscing elitr</h6>
             <p>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, 
-                no sea takimata sanctus est Lorem ipsum do5alor sit amet.
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
             </p>
             
             <div class="grid-list mt-50">

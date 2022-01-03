@@ -87,10 +87,13 @@
         }
 
         .grid-list-icon {
-            background-image: url("./../kundenupload/content-management/img/icon/op-icon-check.svg");
+            background-image: url("./../kundenupload/content-management/img/Icon ionic-md-checkbox.svg");
             background-repeat: no-repeat;
+            object-fit: cover;
             padding: 1.5rem;
             margin-right: 1.5rem;
+            margin-top: 0.5rem;
+
         }
 
         .ri-checkbox-fill {
