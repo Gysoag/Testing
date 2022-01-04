@@ -1,27 +1,25 @@
 /* ||@ COMPONENTS ——————————————————————————————————————————————————————————————————————————————————————————————— */
 /* || Gloable Komponenten definieren ———————————————————————————————————————————————————————————————————————————— */
-#page-home, #page-1 {
+#page-home,
+#page-1,
+#page-lieferservice {
+  /* || Container With Left full —————————————————————————————————————————————————————————————————————————————— */
+  .container-width-100-l {
+    width: 100%;
+    height: auto;
+    background-color: $Very-light-gray;
+    position: relative;
 
-    /* || Container With Left full —————————————————————————————————————————————————————————————————————————————— */
-    .container-width-100-l {
-        width: 100%;
-        height: auto;
-        background-color: $Very-light-gray;
-        position: relative;
-
-        &::before {
-            content: "";
-            background-color: inherit;
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            right: 100%;
-            width: 99999px;
-        }
+    &::before {
+      content: '';
+      background-color: inherit;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 100%;
+      width: 99999px;
     }
+  }
 
-
-    /* ||@ Accordion ———————————————————————————————————————————————————————————————————————————————————————————— */
-
-
+  /* ||@ Accordion ———————————————————————————————————————————————————————————————————————————————————————————— */
 }

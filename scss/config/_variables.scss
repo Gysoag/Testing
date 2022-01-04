@@ -1,41 +1,40 @@
 /* ||@ FONTS */
 
-
 /* ||@ COLOR */
 /* || Globale Farben definieren */
-$Main-green: #009775;       // Standard grün
-$Secondary-green: #00775C;
-$Alt-blue: #62A1D8;         // Neuheiten
-$Alt-pink: #D8628E;         // Aktionen
-$Border-gray: #E5E5E5;
-$Very-light-gray: #F8F8F8;
+$Main-green: #009775; // Standard grün
+$Secondary-green: #00775c;
+$Alt-blue: #62a1d8; // Neuheiten
+$Alt-pink: #d8628e; // Aktionen
+$Border-gray: #e5e5e5;
+$Very-light-gray: #f8f8f8;
 $Light-gray: #707070;
 $Mid-gray: #575757;
 $Dark-gray: #464646;
-$Main-black: #1D1D1D;       // Standard schwarz
-$Main-white: #FFFFFF;
+$Main-black: #1d1d1d; // Standard schwarz
+$Main-white: #ffffff;
 $Main-green-30: #009774b0;
-
 
 /* ||@ TYPOGRAPHY ——————————————————————————————————————————————————————————————————————————————————————————————— */
 /* || Globable Schriftstyle definieren —————————————————————————————————————————————————————————————————————————— */
-#page-home, #page-1 {
+#page-home,
+#page-1,
+#page-lieferservice {
+  h1 {
+    font-size: 3.2rem;
+    font-weight: 600;
+    line-height: 3.2rem * 1.5;
+    margin-bottom: 0.5rem;
+    color: $Main-black;
+  }
 
-    h1 {
-        font-size: 3.2rem;
-        font-weight: 600; 
-        line-height: 3.2rem * 1.5;
-        margin-bottom: 0.5rem;
-        color: $Main-black;
-    }
-
-    h2 {
-        font-size: 2.4rem;
-        font-weight: 600;
-        line-height: 2.4rem * 1.5;
-        color: $Main-black;
-    }
-/*
+  h2 {
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 2.4rem * 1.5;
+    color: $Main-black;
+  }
+  /*
     h3 {
         font-size: 2.0rem;
         font-weight: 600;
@@ -43,13 +42,13 @@ $Main-green-30: #009774b0;
         color: $Main-black;
     }
 */
-    h4 {
-        font-size: 1.8rem;
-        font-weight: 600;
-        line-height: 1.8rem * 1.5;
-        color: $Main-black;
-    }
-/*
+  h4 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.8rem * 1.5;
+    color: $Main-black;
+  }
+  /*
     h5 {
         font-size: 1.6rem;
         font-weight: 600;
@@ -57,28 +56,28 @@ $Main-green-30: #009774b0;
         color: $Main-black;
     }
 */
-    h6 {
-        font-size: 2.0rem;
-        font-weight: 300;
-        line-height: 2.0rem * 1.5;
-        margin-bottom: 1.5rem;
-        color: $Main-black;
-    }
+  h6 {
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 2rem * 1.5;
+    margin-bottom: 1.5rem;
+    color: $Main-black;
+  }
 
-    li {
-        font-size: 1.6rem;
-        font-weight: 500;
-        line-height: 1.6rem * 1.5;
-        color: $Main-black;
-    }
+  li {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.6rem * 1.5;
+    color: $Main-black;
+  }
 
-    p {
-        font-size: 1.6rem;
-        font-weight: 500;
-        line-height: 1.6rem * 1.5;
-        color: $Main-black;
-    }
-/*
+  p {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.6rem * 1.5;
+    color: $Main-black;
+  }
+  /*
     a {
         font-size: 1.6rem;
         font-weight: 600;
@@ -90,109 +89,113 @@ $Main-green-30: #009774b0;
 
 // || Small devices (landscape phones, less than 768px)
 @media only screen and (max-width: 767.98px) {
-    #page-home, #page-1 {
-        h1 {
-            font-size: 2.4rem;
-            font-weight: 600; 
-            line-height: 2.4rem * 1.5;
-            margin-bottom: 0.5rem;
-            color: $Main-black;
-        }
-    
-        h2 {
-            font-size: 2.0rem;
-            font-weight: 600;
-            line-height: 2.0rem * 1.5;
-            color: $Main-black;
-        }
-
-        h6 {
-            font-size: 1.8rem;
-            font-weight: 300;
-            line-height: 1.8rem * 1.5;
-            margin-bottom: 1.5rem;
-            color: $Main-black;
-        }
+  #page-home,
+  #page-1,
+  #page-lieferservice {
+    h1 {
+      font-size: 2.4rem;
+      font-weight: 600;
+      line-height: 2.4rem * 1.5;
+      margin-bottom: 0.5rem;
+      color: $Main-black;
     }
+
+    h2 {
+      font-size: 2rem;
+      font-weight: 600;
+      line-height: 2rem * 1.5;
+      color: $Main-black;
+    }
+
+    h6 {
+      font-size: 1.8rem;
+      font-weight: 300;
+      line-height: 1.8rem * 1.5;
+      margin-bottom: 1.5rem;
+      color: $Main-black;
+    }
+  }
 }
 
 /* ||@ SPACING —————————————————————————————————————————————————————————————————————————————————————————————————— */
 /* || Globable Abstände definieren —————————————————————————————————————————————————————————————————————————————— */
-#page-home, #page-1 {
-    /* || padding-top */
-    .pt-5 {
-        padding-top: 0.5rem;
-    }
-    .pt-10 {
-        padding-top: 1rem;
-    }
-    .pt-15 {
-        padding-top: 1.5rem;
-    }
-    .pt-30 {
-        padding-top: 3rem;
-    }
-    .pt-50 {
-        padding-top: 5rem;
-    }
-    .pt-100 {
-        padding-top: 10rem;
-    }
-    /* || padding-bottom */
-    .pb-5 {
-        padding-bottom: 0.5rem;
-    }
-    .pb-10 {
-        padding-bottom: 1rem;
-    }
-    .pb-15 {
-        padding-bottom: 1.5rem;
-    }
-    .pb-30 {
-        padding-bottom: 3rem;
-    }
-    .pb-50 {
-        padding-bottom: 5rem;
-    }
-    .pb-100 {
-        padding-bottom: 10rem;
-    }
-    /* || margin-top */
-    .mt-5 {
-        margin-top: 0.5rem;
-    }
-    .mt-10 {
-        margin-top: 1rem;
-    }
-    .mt-15 {
-        margin-top: 1.5rem;
-    }
-    .mt-30 {
-        margin-top: 3rem;
-    }
-    .mt-50 {
-        margin-top: 5rem;
-    }
-    .mt-100 {
-        margin-top: 10rem;
-    }
-    /* || margin-bottom */
-    .mb-5 {
-        margin-bottom: 0.5rem;
-    }
-    .mb-10 {
-        margin-bottom: 1rem;
-    }
-    .mb-15 {
-        margin-bottom: 1.5rem;
-    }
-    .mb-30 {
-        margin-bottom: 3rem;
-    }
-    .mb-50 {
-        margin-bottom: 5rem;
-    }
-    .mb-100 {
-        margin-bottom: 10rem;
-    }
+#page-home,
+#page-1,
+#page-lieferservice {
+  /* || padding-top */
+  .pt-5 {
+    padding-top: 0.5rem;
+  }
+  .pt-10 {
+    padding-top: 1rem;
+  }
+  .pt-15 {
+    padding-top: 1.5rem;
+  }
+  .pt-30 {
+    padding-top: 3rem;
+  }
+  .pt-50 {
+    padding-top: 5rem;
+  }
+  .pt-100 {
+    padding-top: 10rem;
+  }
+  /* || padding-bottom */
+  .pb-5 {
+    padding-bottom: 0.5rem;
+  }
+  .pb-10 {
+    padding-bottom: 1rem;
+  }
+  .pb-15 {
+    padding-bottom: 1.5rem;
+  }
+  .pb-30 {
+    padding-bottom: 3rem;
+  }
+  .pb-50 {
+    padding-bottom: 5rem;
+  }
+  .pb-100 {
+    padding-bottom: 10rem;
+  }
+  /* || margin-top */
+  .mt-5 {
+    margin-top: 0.5rem;
+  }
+  .mt-10 {
+    margin-top: 1rem;
+  }
+  .mt-15 {
+    margin-top: 1.5rem;
+  }
+  .mt-30 {
+    margin-top: 3rem;
+  }
+  .mt-50 {
+    margin-top: 5rem;
+  }
+  .mt-100 {
+    margin-top: 10rem;
+  }
+  /* || margin-bottom */
+  .mb-5 {
+    margin-bottom: 0.5rem;
+  }
+  .mb-10 {
+    margin-bottom: 1rem;
+  }
+  .mb-15 {
+    margin-bottom: 1.5rem;
+  }
+  .mb-30 {
+    margin-bottom: 3rem;
+  }
+  .mb-50 {
+    margin-bottom: 5rem;
+  }
+  .mb-100 {
+    margin-bottom: 10rem;
+  }
 }
